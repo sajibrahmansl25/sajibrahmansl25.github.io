@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Sono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Sono' ,sans-serif;
+}
+header {
+    position: fixed;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 30px 100px;
+    background: rgb(58, 90, 116);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.restaurant{
+    font-size: 2em;
+    color:white;
+    user-select: none;
+}
+.navigation a { 
+    font-size: 1.1em;
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+
+
+
+
+
+body {
+    
+    background-image: url("F:\3.1\CSE 3100 Internet Programming\Rastaurant Website\bg.jpeg");
+    
+    font-family: 'Sono', sans-serif;
+}
+
+.container {
+background-color: rgb(112, 150, 180);
+border-radius: 5px;
+
+margin: 150px auto;
+padding: 20px;
+width: 500px;
+}
+
+h1 {
+text-align: center;
+}
+
+label {
+display: block;
+font-size: 18px;
+margin-top: 20px;
+}
+input[type="tel"], 
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+border:
+border-radius: 5px;
+
+display: block;
+font-size: 18px;
+margin-top: 5px;
+padding: 10px;
+width: 95%;
+}
+
+input[type="submit"] {
+background-color: rgb(58, 90, 116);
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 18px;
+margin-top: 20px;
+padding: 10px;
+width: 100%;
+}
+
+input[type="submit"]:hover {
+background-color: white;
+color:black;
+}
+
+
+.navigation button {
+width: 110px;
+height: 40px;
+background: transparent;
+border: 2px solid white;
+outline: none;
+border-radius: 100px;
+font-size: 1.1em;
+color: white;
+margin-left: 40px;
+transition: .5s;
+}
+.navigation button:hover {
+background: white;
+color:rgb(24, 23, 23)
+}
