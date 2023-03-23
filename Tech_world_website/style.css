@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&family=Sono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Sono' ,sans-serif;
+    color:White;
+}
+header {
+    position:sticky;
+    top: 0;
+    left:0;
+    width:100%;
+    padding: 20px 100px;
+    background: rgb(68, 105, 136);
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    padding: 20px 100px;
+    background: rgb(68, 105, 136) ;
+    color:white;
+    align-items: center;
+}
+.restaurant{
+    font-size: 2em;
+    color:white;
+    user-select: none;
+}
+.navigation a { 
+    font-size: 1.1em;
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+body {
+    
+    background: rgb(198, 198, 230);
+    
+    font-family: 'Sono', sans-serif;
+}
+
+.container {
+background-color:rgb(39, 86, 100);
+border-radius: 5px;
+opacity: 10;
+margin: 100px auto;
+padding: 20px;
+width: 500px;
+}
+
+h1 {
+text-align: center;
+}
+
+label {
+display: block;
+font-size: 18px;
+margin-top: 20px;
+}
+input[type="tel"], 
+input[type="email"],
+input[type="text"],
+input[type="password"] {
+border:
+border-radius: 5px;
+opacity: .3;
+display: block;
+font-size: 18px;
+margin-top: 5px;
+padding: 10px;
+width: 95%;
+}
+
+input[type="submit"] {
+background-color: rgb(56, 89, 139);
+border: none;
+border-radius: 5px;
+color: white;
+cursor: pointer;
+font-size: 18px;
+margin-top: 20px;
+padding: 10px;
+width: 100%;
+}
+
+input[type="submit"]:hover {
+background-color: white;
+color:black;
+}
+
+
+.navigation button {
+width: 110px;
+height: 40px;
+background: transparent;
+border: 2px solid white;
+outline: none;
+border-radius: 100px;
+font-size: 1.1em;
+color: white;
+margin-left: 40px;
+transition: .5s;
+}
+.navigation button:hover {
+background: white;
+color:rgb(24, 23, 23)
+}
