@@ -1,2 +1,2 @@
 It's not my actual CV. Created this as my Lab Assignment....
-Checkout here sajibrahmansl25.github.io/CV/CV.html
+Checkout here http://sajibrahmansl25.github.io/CV/CV.html
