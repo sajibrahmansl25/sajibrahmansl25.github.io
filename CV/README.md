@@ -1,2 +1,1 @@
-# sajibrahmansl25.github.io
-For lab purpose Internet Programming Laboratory(CSE 3109)
+It's not my actual CV. Created this as my Lab Assignment....
