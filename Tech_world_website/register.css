@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+    
+   background: url('images/background6.png')no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+header {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    padding: 20px 100px;
+    background: transparent;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.restaurant{
+    font-size: 2em;
+    color:white;
+    user-select: none;
+}
+.navigation a { 
+    font-size: 1.1em;
+    color:white;
+    text-decoration: none;
+    margin-left: 20px;
+}
+footer{
+    padding: 20px 100px;
+    background: rgb(68, 105, 136) ;
+    color:white;
+    align-items: center;
+}
+.form-box{
+    position: relative;
+    width: 400px;
+    height: 600px;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h2{
+    font-size: 2em;
+    color: #fff;
+    text-align: center;
+}
+.inputbox{
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid #fff;
+}
+.inputbox label{
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: #fff;
+    font-size: 1em;
+    pointer-events: none;
+    transition: .5s;
+}
+input:focus ~ label,
+input:valid ~ label{
+top: -5px;
+}
+.inputbox input {
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding:0 35px 0 5px;
+    color: #fff;
+}
+.inputbox ion-icon{
+    position: absolute;
+    right: 8px;
+    color: #fff;
+    font-size: 1.2em;
+    top: 20px;
+}
+
+button{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: #fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+button:hover{
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    background: rgb(97, 96, 96);
+    color:#fff;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1.2em;
+    font-weight: 600;
+    transition: .3s;
+}
+.login{
+    font-size: .9em;
+    color: #fff;
+    text-align: center;
+    margin: 25px 0 10px;
+    
+}
+.login p a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.1em;
+}
+.login p a:hover{
+    
+    text-decoration: underline;
+}
